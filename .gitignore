@@ -1,0 +1,23 @@
+# Gradle / build output
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Local machine config
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Packaged outputs
+*.apk
+*.aab
+
+# Signing keys (needed at release time, never commit)
+*.jks
+*.keystore
+
+# OS
+.DS_Store
